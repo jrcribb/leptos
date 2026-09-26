@@ -2026,7 +2026,7 @@ checksum = "09edd9e8b54e49e587e4f6295a7d29c3ea94d469cb40ab8ca70b288248a81db2"
 
 [[package]]
 name = "leptos"
-version = "0.8.20"
+version = "0.8.21"
 dependencies = [
  "any_spawner",
  "base64",
@@ -2085,7 +2085,7 @@ dependencies = [
 
 [[package]]
 name = "leptos_actix"
-version = "0.8.7"
+version = "0.8.8"
 dependencies = [
  "actix-files",
  "actix-http",
@@ -2180,7 +2180,7 @@ dependencies = [
 
 [[package]]
 name = "leptos_integration_utils"
-version = "0.8.8"
+version = "0.8.9"
 dependencies = [
  "futures",
  "hydration_context",
@@ -2193,7 +2193,7 @@ dependencies = [
 
 [[package]]
 name = "leptos_macro"
-version = "0.8.17"
+version = "0.8.18"
 dependencies = [
  "attribute-derive",
  "cfg-if",
@@ -2213,7 +2213,7 @@ dependencies = [
  "rustc_version",
  "serde",
  "server_fn",
- "server_fn_macro 0.8.10",
+ "server_fn_macro 0.8.11",
  "syn 2.0.114",
  "tracing",
  "trybuild",
@@ -2223,7 +2223,7 @@ dependencies = [
 
 [[package]]
 name = "leptos_meta"
-version = "0.8.6"
+version = "0.8.7"
 dependencies = [
  "futures",
  "indexmap",
@@ -2237,7 +2237,7 @@ dependencies = [
 
 [[package]]
 name = "leptos_router"
-version = "0.8.15"
+version = "0.8.16"
 dependencies = [
  "any_spawner",
  "either_of",
@@ -2261,7 +2261,7 @@ dependencies = [
 
 [[package]]
 name = "leptos_router_macro"
-version = "0.8.6"
+version = "0.8.7"
 dependencies = [
  "leptos",
  "leptos_macro",
@@ -2274,7 +2274,7 @@ dependencies = [
 
 [[package]]
 name = "leptos_server"
-version = "0.8.7"
+version = "0.8.8"
 dependencies = [
  "any_spawner",
  "base64",
@@ -2990,7 +2990,7 @@ checksum = "63b8176103e19a2643978565ca18b50549f6101881c443590420e4dc998a3c69"
 
 [[package]]
 name = "reactive_graph"
-version = "0.2.14"
+version = "0.2.15"
 dependencies = [
  "any_spawner",
  "async-lock",
@@ -3017,7 +3017,7 @@ dependencies = [
 
 [[package]]
 name = "reactive_stores"
-version = "0.4.3"
+version = "0.4.4"
 dependencies = [
  "any_spawner",
  "guardian",
@@ -3038,7 +3038,7 @@ dependencies = [
 
 [[package]]
 name = "reactive_stores_macro"
-version = "0.4.3"
+version = "0.4.4"
 dependencies = [
  "convert_case 0.11.0",
  "proc-macro2",
@@ -3624,7 +3624,7 @@ dependencies = [
 
 [[package]]
 name = "server_fn_macro"
-version = "0.8.10"
+version = "0.8.11"
 dependencies = [
  "const_format",
  "convert_case 0.11.0",
@@ -3639,7 +3639,7 @@ dependencies = [
 name = "server_fn_macro_default"
 version = "0.8.5"
 dependencies = [
- "server_fn_macro 0.8.10",
+ "server_fn_macro 0.8.11",
  "syn 2.0.114",
 ]
 
@@ -3898,7 +3898,7 @@ dependencies = [
 
 [[package]]
 name = "tachys"
-version = "0.2.18"
+version = "0.2.19"
 dependencies = [
  "any_spawner",
  "async-trait",
